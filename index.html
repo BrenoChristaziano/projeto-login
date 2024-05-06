@@ -11,13 +11,23 @@
     <main id="login">
         <section>
             <div id="imagen">
-
+                <img src="imagens/tela de login.jpeg" alt="imagen do login">
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça o seu login para acessar a sua conta novamente e fazer congigurações no seu ambiente</p>
                 <form action="login.php" method="post">
-
+                    <p>
+                        <label for="iemail">Email: </label>
+                        <input type="email" name="email" id="iemail" required placeholder="Email valido">
+                    </p>
+                    <p>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" minlength="8" maxlength="25" required placeholder="Senha do usuario">
+                    </p>
+                    <p>
+                        <input id="envio" type="submit" value="Enviar">
+                    </p>
                 </form>
             </div>
         </section>
