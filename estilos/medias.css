@@ -1,1 +1,125 @@
 @charset "UTF-8";
+/*Todas as demais media query */
+/* Pesquisar typical device breakpoints
+----------------------------------------
+celular:600 até 768
+tablet:768 até 992
+desktop:992 até 1200
+tv: mais de 1200
+*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(180deg, #5f2c82, #49a06d);
+    }
+    #login{
+        height: 300px;
+        width: 620px;
+    }
+    section#login > div#imagem{
+        background-position: center center;
+        width: 300px;
+        margin-left: 55%;
+        height: 300px;
+        border: 1px solid transparent;
+    }
+    section#login > div#formulario{
+        width: 350px;
+        margin-top: -300px;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+    input{
+        width: 295px;
+    }
+    #envio{
+        margin-top: 3px;
+        width: 320px;
+    }
+    .botao{
+        width: 320px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: linear-gradient(180deg, #5f2c82, #49a06d);
+    }
+    #login{
+        height: 400px;
+        width: 800px;
+    }
+    section#login > div#imagem{
+        background-position: center center;
+        width: 400px;
+        margin-left: 55%;
+        height: 400px;
+        border: 1px solid transparent;
+    }
+    section#login > div#formulario{
+        width: 440px;
+        margin-top: -400px;
+        padding: 10px;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    input{
+        width: 385px;
+        height: 50px;
+        padding: 10px;
+    }
+    #envio{
+        margin-top: 10px;
+        width: 420px;
+        margin-bottom: 10px;
+    }
+    .botao{
+        width: 420px;
+        height: 50px;
+        padding: 10px;
+    }
+}
+@media screen and (min-width: 1200px){
+    body{
+        background-image: linear-gradient(180deg, #5f2c82, #49a06d);
+    }
+    #login{
+        height: 450px;
+        width: 900px;
+    }
+    section#login > div#imagem{
+        background-position: center center;
+        width: 450px;
+        margin-left: 55%;
+        height: 450px;
+        border: 1px solid transparent;
+    }
+    section#login > div#formulario{
+        width: 490px;
+        margin-top: -400px;
+        padding: 10px;
+    }
+    section#login > div#formulario > h1{
+        font-size: 1.6em;
+        margin-top: -30px;
+    }
+    p{
+        margin-bottom: 20px;
+        font-size: 1.4em;
+        line-height: 1.5em;
+    }
+    input{
+        width: 435px;
+        height: 50px;
+        padding: 10px;
+    }
+    #envio{
+        margin-top: 10px;
+        width: 460px;
+        margin-bottom: 10px;
+    }
+    .botao{
+        width: 460px;
+        height: 50px;
+    }
+}

@@ -14,7 +14,7 @@ html{
     height: 100vh;
 }
 body{
-    background-image: linear-gradient(180deg, #5f2c82, #49a06d);
+    background-color: #5f2c82;
 }
 main{
     position: relative;
@@ -40,13 +40,14 @@ section#login > div#imagem{
     display: block;
     background-image: url(../imagens/tela\ de\ login.jpeg);
     background-size: cover;
-    background-position: left bottom;
+    background-position: center center;
     background-color: #5f2c82;
     height: 200px;
 }
 section#login > div#formulario{
     display: block;
     padding: 10px;
+    border: 1px solid transparent;
 }
 section#login > div#formulario > h1{
     text-align: center;
@@ -64,7 +65,7 @@ input{
     border-radius: 10px;
     cursor: pointer;
     background-color: #75f1a9d0;
-    width: 160px;
+    width: 195px;
     height: 40px;
 }
 input:hover{
@@ -80,11 +81,17 @@ input:hover{
     background-color: #64db96;
 }
 .botao{
-    text-decoration: none;
     background-color: #64db96;
     border-radius: 10px;
-    color: black;
     border: 1px solid black;
-    width: 300px;
-    margin-top: 5px;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#lado{
+    display: inline;
 }
