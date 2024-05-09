@@ -27,7 +27,7 @@ main{
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 540px;
+    height: 530px;
     border-radius: 20px;
     transform: translate(-50%, -50%);
     transition: width .3s, heigth .3s;
@@ -63,7 +63,7 @@ input{
     cursor: pointer;
     background-color: #75f1a9d0;
     width: 195px;
-    height: 40px;
+    height: 30px;
 }
 input:hover{
     background-color: white;
@@ -85,7 +85,7 @@ input:hover{
     border-radius: 10px;
     border: 1px solid black;
     width: 227px;
-    height: 40px;
+    height: 30px;
     text-align: center;
 }
 a{
