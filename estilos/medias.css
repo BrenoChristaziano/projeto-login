@@ -1,12 +1,4 @@
 @charset "UTF-8";
-/*Todas as demais media query */
-/* Pesquisar typical device breakpoints
-----------------------------------------
-celular:600 até 768
-tablet:768 até 992
-desktop:992 até 1200
-tv: mais de 1200
-*/
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
         background-image: linear-gradient(180deg, #5f2c82, #49a06d);
@@ -34,10 +26,10 @@ tv: mais de 1200
     }
     #envio{
         margin-top: 3px;
-        width: 320px;
+        width: 325px;
     }
     .botao{
-        width: 320px;
+        width: 325px;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){
@@ -70,11 +62,11 @@ tv: mais de 1200
     }
     #envio{
         margin-top: 10px;
-        width: 420px;
+        width: 415px;
         margin-bottom: 10px;
     }
     .botao{
-        width: 420px;
+        width: 415px;
         height: 50px;
         padding: 10px;
     }
@@ -115,11 +107,11 @@ tv: mais de 1200
     }
     #envio{
         margin-top: 10px;
-        width: 460px;
+        width: 465px;
         margin-bottom: 10px;
     }
     .botao{
-        width: 460px;
+        width: 465px;
         height: 50px;
     }
 }
