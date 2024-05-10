@@ -22,17 +22,15 @@
         font-size: 1.1em;
     }
     input{
-        width: 325px;
         height: 40px;
         padding-right: 15px;
     }
     #envio{
         margin-top: 3px;
-        width: 357px;
     }
     .botao{
-        width: 357px;
         height: 40px;
+        padding: 5px;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){
@@ -62,17 +60,14 @@
         font-size: 1.2em;
     }
     input{
-        width: 425px;
         height: 50px;
         padding: 10px;
     }
     #envio{
         margin-top: 10px;
-        width: 457px;
         margin-bottom: 10px;
     }
     .botao{
-        width: 457px;
         height: 50px;
         padding: 10px;
     }
@@ -106,17 +101,16 @@
         line-height: 1.5em;
     }
     input{
-        width: 485px;
         height: 50px;
         padding: 10px;
     }
     #envio{
         margin-top: 10px;
-        width: 517px;
+
         margin-bottom: 10px;
     }
     .botao{
-        width: 517px;
         height: 50px;
+        padding: 10px;
     }
 }
