@@ -92,7 +92,5 @@ input:hover{
 a{
     color: black;
     text-decoration: none;
-}
-#lado{
-    display: inline;
+    text-align: center;
 }
