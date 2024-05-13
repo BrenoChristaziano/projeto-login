@@ -4,7 +4,7 @@
         background-image: linear-gradient(180deg, #5f2c82, #49a06d);
     }
     #login{
-        height: 300px;
+        height: 310px;
         width: 620px;
     }
     section#login > div#imagem{
@@ -22,14 +22,15 @@
         font-size: 1.1em;
     }
     input{
-        height: 40px;
+        height: 50px;
         padding-right: 15px;
     }
     #envio{
         margin-top: 3px;
+        height: 40px;
     }
     .botao{
-        height: 40px;
+        height: 38px;
         padding: 5px;
     }
 }
@@ -38,7 +39,7 @@
         background-image: linear-gradient(180deg, #5f2c82, #49a06d);
     }
     #login{
-        height: 400px;
+        height: 380px;
         width: 800px;
     }
     section#login > div#imagem{
@@ -55,20 +56,21 @@
     section#login > div#formulario > h1{
         font-size: 1.3em;
     }
-    p{
-        margin-bottom: 20px;
-        font-size: 1.2em;
+    section#login > div#formulario > p{
+        margin-bottom: 10px;
+        font-size: 1.1em;
     }
     input{
-        height: 50px;
+        height: 55px;
         padding: 10px;
     }
     #envio{
+        height: 50px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     .botao{
-        height: 50px;
+        height: 47px;
         padding: 10px;
     }
 }
@@ -77,7 +79,7 @@
         background-image: linear-gradient(180deg, #5f2c82, #49a06d);
     }
     #login{
-        height: 450px;
+        height: 410px;
         width: 900px;
     }
     section#login > div#imagem{
@@ -95,22 +97,21 @@
         font-size: 1.7em;
         margin-bottom: 5px;
     }
-    p{
-        margin-bottom: 20px;
-        font-size: 1.5em;
-        line-height: 1.5em;
+    section#login > div#formulario > p{
+        margin-bottom: 10px;
+        font-size: 1.2em;
     }
     input{
-        height: 50px;
+        height: 59px;
         padding: 10px;
     }
     #envio{
         margin-top: 10px;
-
+        height: 50px;
         margin-bottom: 10px;
     }
     .botao{
-        height: 50px;
+        height: 45px;
         padding: 10px;
     }
 }
