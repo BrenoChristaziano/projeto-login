@@ -128,8 +128,3 @@ a{
     text-decoration: none;
     text-align: center;
 }
-
-a > i{
-    background-color: #50a5a2;
-    padding: -1px;
-}
